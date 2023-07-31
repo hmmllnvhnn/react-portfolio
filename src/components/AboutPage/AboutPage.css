@@ -1,0 +1,46 @@
+.about {
+  width: 1980px;
+  height: 700px;
+  overflow-y: hidden;
+  margin-top: 20px;
+}
+
+.aboutTxt:hover {
+  transition-delay: 0s;
+  transition: 0.5s;
+  color: white;
+  text-shadow: 0 0 20px #fdfdfd;
+}
+
+.aboutTxt {
+  font-size: 120px;
+  margin-left: 200px;
+  font-weight: 600;
+}
+
+h2,
+p,
+li {
+  margin-left: 200px;
+  color: white;
+}
+
+.aboutBg {
+  background-image: url(./bg.png);
+  width: 700px;
+  height: 500px;
+  background-size: cover;
+  margin-top: -480px;
+  margin-left: 580px;
+}
+
+.name {
+  margin-left: 200px;
+}
+
+.name:hover {
+  transition-delay: 0s;
+  transition: 0.5s;
+  color: #8fb3ff;
+  text-shadow: 0 0 20px #8fb3ff;
+}

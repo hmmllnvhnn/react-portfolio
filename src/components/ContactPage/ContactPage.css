@@ -1,0 +1,56 @@
+.contact {
+  width: 1980px;
+  height: 1100px;
+  overflow-y: hidden;
+}
+
+.contactTxt {
+  font-size: 120px;
+  margin-left: 200px;
+}
+
+.contactTxt:hover {
+  transition-delay: 0s;
+  transition: 0.5s;
+  color: white;
+  text-shadow: 0 0 20px #fdfdfd;
+}
+
+label {
+  display: flex;
+  margin-top: 10px;
+}
+
+input {
+  color: #fdfdfd;
+  padding: 15px;
+  width: 350px;
+  margin-top: 10px;
+  border-radius: 15px;
+  border: solid white;
+}
+
+textarea {
+  color: #fdfdfd;
+  width: 375px;
+  margin-top: 10px;
+  border-radius: 15px;
+  border: solid white;
+}
+
+form.contactForm {
+  color: white;
+  margin-left: 220px;
+  margin-bottom: 200px;
+}
+
+.button {
+  width: 380px;
+  background-color: #8fb3ff;
+  color: white;
+  margin-top: 20px;
+  padding: 10px;
+  border: solid;
+  border-radius: 10px;
+  cursor: pointer;
+}

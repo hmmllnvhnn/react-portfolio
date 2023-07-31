@@ -1,19 +1,23 @@
-import Sidenav from './components/Sidenav'
-import Main from './components/Main'
-import Projects from './components/Projects'
-import Contact from './components/Contact'
-import About from './components/About'
+import React from 'react'
+import Header from './components/Header/Header'
+import LandingPage from './components/LandingPage/LandingPage'
+import AboutPage from './components/AboutPage/AboutPage'
+import ProjectPage from './components/ProjectPage/ProjectPage'
+import ContactPage from './components/ContactPage/ContactPage'
+import './App.css'
 
 function App() {
 
   return (
-      <div>
-        <Sidenav />
-        <Main />
-        <Projects />
-        <About />
-        <Contact />
+    <div>
+      <div className='sideNav'>
+        <Header />
       </div>
+      <LandingPage />
+      <AboutPage />
+      <ProjectPage />
+      <ContactPage />
+    </div>
   )
 }
 
